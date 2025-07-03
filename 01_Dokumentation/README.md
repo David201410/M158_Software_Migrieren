@@ -5,6 +5,12 @@
 
 Diese Dokumentation ist nach den Aufgaben (1–14) gegliedert. Jede Aufgabe ist in drei Phasen unterteilt. Bitte tragen Sie Ihre Ergebnisse jeweils unter den entsprechenden Abschnitten ein.
 
+---
+
+## Aufgabe 1 – Projektplan erstellen
+
+### Zeitplan
+
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
@@ -26,19 +32,11 @@ gantt
 
 ---
 
-## Aufgabe 1 – Projektplan erstellen
-
-### Zeitplan
-
-Fügen Sie hier Ihre Ergebnisse ein
-
----
-
 ## Aufgabe 2 – Architekturdiagramm erstellen
 
 ### Stufe 1 - 3
 
-Fügen Sie hier Ihre Ergebnisse ein
+![image](/images/architekturdiagramm.png)
 
 ---
 
@@ -50,8 +48,9 @@ Fügen Sie hier Ihre Ergebnisse ein
 
 ### Stufe 2
 
-Fügen Sie hier Ihre Ergebnisse ein
-
+DB_USERNAME: admin
+DB_PASSWORD: Tony_onHisWAY218!
+DB_URL: wp-database.c69qo3ofuvyq.us-east-1.rds.amazonaws.com
 ---
 
 ## Aufgabe 4 – DNS-Konfiguration
@@ -68,9 +67,14 @@ Fügen Sie hier Ihre Ergebnisse ein
 
 ### Stufe 1
 
-Fügen Sie hier Ihre Ergebnisse ein
+Wordpress User:
 
-### Stufe 2
+user: admin
+
+ssh -i ~/.ssh/m158.pem -L 8888:localhost:80 ubuntu@<44.203.193.128> -N
+
+Datenbank-User: wp_readwrite
+Datenbank-Passwort: Tony_onHisWAY218!
 
 Fügen Sie hier Ihre Ergebnisse ein
 
