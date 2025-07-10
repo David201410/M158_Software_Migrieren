@@ -340,3 +340,7 @@ Das sieht der dedizierte PHPmyAdmin User für Wordpress:
 ![image](/images/wp_info.png)
 
 ---
+
+**Hinweis**:
+
+Die Dateien im Ordner 02_Wordpress sind unverändert und stammen direkt vom FTP-Server der Lehrperson. Die geänderten Files und so weiter finden sich auf der EC2 Instanz.
